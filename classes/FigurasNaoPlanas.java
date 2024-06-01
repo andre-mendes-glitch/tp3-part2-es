@@ -1,3 +1,5 @@
+package classes;
+
 public abstract class FigurasNaoPlanas extends Figuras implements Area, Volume {
 
     @Override

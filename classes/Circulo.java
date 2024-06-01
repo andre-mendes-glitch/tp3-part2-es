@@ -1,3 +1,5 @@
+package classes;
+
 public class Circulo extends FigurasPlanas implements Cloneable{
 
     private double raio;

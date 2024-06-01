@@ -1,3 +1,4 @@
+package classes;
 import java.lang.Math;
 
 public class Piramide extends FigurasNaoPlanas implements Cloneable{

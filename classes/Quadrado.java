@@ -1,3 +1,5 @@
+package classes;
+
 public class Quadrado extends FigurasPlanas implements Cloneable{
 
     private double lado;
