@@ -12,7 +12,7 @@ public class CirculoTest {
 
     // Esta função é executada antes de cada teste
     @BeforeEach
-    public void setUp() {
+    public void setup() {
         circulo = new Circulo(raio);
     }
 

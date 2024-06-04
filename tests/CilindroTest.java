@@ -14,7 +14,7 @@ public class CilindroTest {
 
     // Esta função é executada antes de cada teste
     @BeforeEach
-    public void setUp() {
+    public void setup() {
         cilindro = new Cilindro(raio, altura);
     }
 
