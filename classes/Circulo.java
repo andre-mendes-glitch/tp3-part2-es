@@ -29,7 +29,7 @@ public class Circulo extends FigurasPlanas implements Cloneable{
     @Override
     public String toString() {
         return "Circulo{" +
-                " raio='" + getRaio() + "'" +
+                "raio='" + getRaio() + "'" +
                 ", pi='" + getPi() + "'" +
                 '}';
     }
