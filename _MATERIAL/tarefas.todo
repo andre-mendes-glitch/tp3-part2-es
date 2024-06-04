@@ -1,4 +1,20 @@
 Programação dos testes
 ✔ CilindroTest @done(24-06-04 19:55)
+✔ CirculoTest @done(24-06-04 21:51)
+☐ CuboTest
+
+---------------------------------------
 
 Descrição dos testes no relatório
+
+Figuras Planas - Capítulo 1
+☐ Circulo
+
+Figuras Não Planas - Capítulo 2
+☐ Cilindro
+☐ Cubo
+
+---------------------------------------
+
+Se der tempo
+Colocar comentários no código todo

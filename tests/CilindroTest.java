@@ -12,6 +12,7 @@ public class CilindroTest {
     final double pi = 3.14;
 
 
+    // Esta função é executada antes de cada teste
     @BeforeEach
     public void setUp() {
         cilindro = new Cilindro(raio, altura);
@@ -51,13 +52,13 @@ public class CilindroTest {
     }
 
     @Test
-    public void testCalculateArea() {
+    public void testCalcularArea() {
         double expectedArea = 2 * pi * raio * (raio + altura);
         Assertions.assertEquals(expectedArea, cilindro.calcularArea());
     }
 
     @Test
-    public void testCalculateVolume() {
+    public void testCalcularVolume() {
         double expectedVolume = pi * raio * raio * altura;
         Assertions.assertEquals(expectedVolume, cilindro.calcularVolume());
     }
