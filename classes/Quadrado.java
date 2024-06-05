@@ -23,8 +23,8 @@ public class Quadrado extends FigurasPlanas implements Cloneable{
 
     @Override
     public String toString() {
-        return "Quadrado{" + super.toString() +
-                " lado='" + getLado() + "'" +
+        return "Quadrado{" +
+                "lado='" + getLado() + "'" +
                 '}';
     }
 

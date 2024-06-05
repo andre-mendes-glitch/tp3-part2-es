@@ -3,8 +3,8 @@ Programação dos testes
 ✔ CirculoTest @done(24-06-04 21:51)
 ✔ CuboTest @done(24-06-04 22:45)
 ✔ FigurasTest @done(24-06-05 13:14)
-☐ PiramideTest
-☐ QuadradoTest
+✔ PiramideTest @done(24-06-05 15:52)
+✔ QuadradoTest @done(24-06-05 21:04)
 ☐ TrianguloTest
 
 -----------------------------------------
