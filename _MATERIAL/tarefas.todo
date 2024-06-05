@@ -2,19 +2,30 @@ Programação dos testes
 ✔ CilindroTest @done(24-06-04 19:55)
 ✔ CirculoTest @done(24-06-04 21:51)
 ✔ CuboTest @done(24-06-04 22:45)
+✔ FigurasTest @done(24-06-05 13:14)
+☐ PiramideTest
+☐ QuadradoTest
+☐ TrianguloTest
 
 ---------------------------------------
 
 Descrição dos testes no relatório
 
-Figuras Planas - Capítulo 1
-☐ Circulo
+Classe Figuras - Capítulo 1
+☐ Figuras
 
-Figuras Não Planas - Capítulo 2
+Figuras Planas - Capítulo 2
+☐ Circulo
+☐ Quadrado
+☐ Triangulo
+
+Figuras Não Planas - Capítulo 3
 ☐ Cilindro
 ☐ Cubo
+☐ Pirâmide
 
 ---------------------------------------
 
 Se der tempo
 Colocar comentários no código todo
+Pôr mensagens personalizadas em cada teste

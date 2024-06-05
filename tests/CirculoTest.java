@@ -34,14 +34,14 @@ public class CirculoTest {
 
     @Test
     public void testToString() {
-        String expectedString = "Circulo{raio='5.0', pi='3.14'}";
-        Assertions.assertEquals(expectedString, circulo.toString());
+        String stringEsperada = "Circulo{raio='5.0', pi='3.14'}";
+        Assertions.assertEquals(stringEsperada, circulo.toString());
     }
 
     @Test
     public void testCalcularArea() {
-        double expectedArea = pi * (raio * raio);
-        Assertions.assertEquals(expectedArea, circulo.calcularArea());
+        double areaEsperada = pi * (raio * raio);
+        Assertions.assertEquals(areaEsperada, circulo.calcularArea());
     }
 
     @Test

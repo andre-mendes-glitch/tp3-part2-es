@@ -28,20 +28,20 @@ public class CuboTest {
 
     @Test
     public void testToString() {
-        String expectedString = "Cubo{aresta='5.0'}";
-        Assertions.assertEquals(expectedString, cubo.toString());
+        String stringEsperada = "Cubo{aresta='5.0'}";
+        Assertions.assertEquals(stringEsperada, cubo.toString());
     }
 
     @Test
     public void testCalcularArea() {
-        double expectedArea = (aresta * aresta) * 6;
-        Assertions.assertEquals(expectedArea, cubo.calcularArea());
+        double areaEsperada = (aresta * aresta) * 6;
+        Assertions.assertEquals(areaEsperada, cubo.calcularArea());
     }
 
     @Test
     public void testCalcularVolume() {
-        double expectedVolume = aresta * aresta * aresta;
-        Assertions.assertEquals(expectedVolume, cubo.calcularVolume());
+        double volumeEsperada = aresta * aresta * aresta;
+        Assertions.assertEquals(volumeEsperada, cubo.calcularVolume());
     }
 
     @Test

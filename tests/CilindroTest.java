@@ -47,20 +47,20 @@ public class CilindroTest {
 
     @Test
     public void testToString() {
-        String expectedString = "Cilindro{raio='5.0', altura='10.0', pi='3.14'}";
-        Assertions.assertEquals(expectedString, cilindro.toString());
+        String stringEsperada = "Cilindro{raio='5.0', altura='10.0', pi='3.14'}";
+        Assertions.assertEquals(stringEsperada, cilindro.toString());
     }
 
     @Test
     public void testCalcularArea() {
-        double expectedArea = 2 * pi * raio * (raio + altura);
-        Assertions.assertEquals(expectedArea, cilindro.calcularArea());
+        double areaEsperada = 2 * pi * raio * (raio + altura);
+        Assertions.assertEquals(areaEsperada, cilindro.calcularArea());
     }
 
     @Test
     public void testCalcularVolume() {
-        double expectedVolume = pi * raio * raio * altura;
-        Assertions.assertEquals(expectedVolume, cilindro.calcularVolume());
+        double volumeEsperada = pi * raio * raio * altura;
+        Assertions.assertEquals(volumeEsperada, cilindro.calcularVolume());
     }
 
     @Test
