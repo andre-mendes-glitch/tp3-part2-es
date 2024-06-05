@@ -40,8 +40,8 @@ public class CuboTest {
 
     @Test
     public void testCalcularVolume() {
-        double volumeEsperada = aresta * aresta * aresta;
-        Assertions.assertEquals(volumeEsperada, cubo.calcularVolume());
+        double volumeEsperado = aresta * aresta * aresta;
+        Assertions.assertEquals(volumeEsperado, cubo.calcularVolume());
     }
 
     @Test

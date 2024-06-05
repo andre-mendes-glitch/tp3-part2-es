@@ -7,6 +7,10 @@ Programação dos testes
 ☐ QuadradoTest
 ☐ TrianguloTest
 
+-----------------------------------------
+
+☐ Fazer todas as funções set como tenho no ficheiro FigurasTest.java
+
 ---------------------------------------
 
 Descrição dos testes no relatório
@@ -29,3 +33,4 @@ Figuras Não Planas - Capítulo 3
 Se der tempo
 Colocar comentários no código todo
 Pôr mensagens personalizadas em cada teste
+Fazer clean code no código todo

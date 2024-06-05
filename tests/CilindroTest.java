@@ -59,8 +59,8 @@ public class CilindroTest {
 
     @Test
     public void testCalcularVolume() {
-        double volumeEsperada = pi * raio * raio * altura;
-        Assertions.assertEquals(volumeEsperada, cilindro.calcularVolume());
+        double volumeEsperado = pi * raio * raio * altura;
+        Assertions.assertEquals(volumeEsperado, cilindro.calcularVolume());
     }
 
     @Test
