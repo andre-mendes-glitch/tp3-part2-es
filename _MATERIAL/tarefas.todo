@@ -1,37 +1,29 @@
-Programação dos testes
-✔ CilindroTest @done(24-06-04 19:55)
-✔ CirculoTest @done(24-06-04 21:51)
-✔ CuboTest @done(24-06-04 22:45)
-✔ FigurasTest @done(24-06-05 13:14)
-✔ PiramideTest @done(24-06-05 15:52)
-✔ QuadradoTest @done(24-06-05 21:04)
-✔ TrianguloTest @done(24-06-06 21:34)
-
------------------------------------------
-
-Se der tempo
-1 - Arranjar uma melhor forma de fazer a função set
-2 - Pôr os cálculos da area, volume ou só area.
-3 - Adicionar nas figuras uma função para o perimetro e adicionar clone
-4 - Colocar comentários no código todo
-5 - Pôr mensagens personalizadas em cada teste
-6 - Fazer clean code no código todo
+Próximas Tarefas:
+1 - Pôr os cálculos da area, volume ou só area.
+2 - Adicionar nas figuras uma função para o perimetro e adicionar clone
+3 - Arranjar uma melhor forma de fazer a função set
+4 - Pôr mensagens personalizadas em cada teste
+5 - Colocar o código todo de forma limpa e comentada
 
 ---------------------------------------
+Estrutura do Relatório:
+1. Introdução
+2. Contextualização do projeto em si
+3. Descrição dos testes
+4. Conclusão
 
-Descrição dos testes no relatório
+----------------------------------------
+Descrição dos testes no relatório:
+3. Classe de Testes da Classe Figura
+3.1. Classe "Figuras"
 
-Classe Figuras - Capítulo 1
-☐ Figuras
+4. Figuras Planas
+4.1.  Classe "Circulo"
+4.2.  Classe "Quadrado"
+4.3.  Classe "Triangulo"
 
-Figuras Planas - Capítulo 2
-☐ Circulo
-☐ Quadrado
-☐ Triangulo
-
-Figuras Não Planas - Capítulo 3
-☐ Cilindro
-☐ Cubo
-☐ Pirâmide
-
+5. Figuras Não Planas
+5.1. Classe "Cilindro"
+5.2. Classe "Cubo"
+5.3. Classe "Pirâmide"
 ---------------------------------------
