@@ -31,10 +31,6 @@ public class Triangulo extends FigurasPlanas implements Cloneable{
         this.altura = altura;
     }
 
-    public Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
-
     @Override
     public String toString() {
         return "Triangulo{" +
@@ -46,6 +42,10 @@ public class Triangulo extends FigurasPlanas implements Cloneable{
     @Override
     public double calcularArea() {
         return (base*altura) / 2;
+    }
+
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
 
