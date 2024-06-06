@@ -5,14 +5,17 @@ Programação dos testes
 ✔ FigurasTest @done(24-06-05 13:14)
 ✔ PiramideTest @done(24-06-05 15:52)
 ✔ QuadradoTest @done(24-06-05 21:04)
-☐ TrianguloTest
+✔ TrianguloTest @done(24-06-06 21:34)
 
 -----------------------------------------
 
 Se der tempo
-Colocar comentários no código todo
-Pôr mensagens personalizadas em cada teste
-Fazer clean code no código todo
+1 - Arranjar uma melhor forma de fazer a função set
+2 - Pôr os cálculos da area, volume ou só area.
+3 - Adicionar nas figuras uma função para o perimetro e adicionar clone
+4 - Colocar comentários no código todo
+5 - Pôr mensagens personalizadas em cada teste
+6 - Fazer clean code no código todo
 
 ---------------------------------------
 
