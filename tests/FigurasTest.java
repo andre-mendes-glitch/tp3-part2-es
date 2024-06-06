@@ -7,7 +7,7 @@ public class FigurasTest {
 
     // Declaração das variáveis utilizas nos testes
     private Figuras figuras;
-    private String nomeFigura = "Quadrado";
+    private String nomeFigura = "Circulo";
 
     // Esta função é executada antes de cada teste
     @BeforeEach
@@ -22,9 +22,8 @@ public class FigurasTest {
 
     @Test
     public void testSetNome() {
-        String novoNome = "Circulo";
-        figuras.setNome(novoNome);
-        Assertions.assertEquals(novoNome, figuras.getNome());
+        figuras.setNome(nomeFigura);
+        Assertions.assertEquals(nomeFigura, figuras.getNome());
     }
 
     @Test
