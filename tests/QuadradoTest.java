@@ -7,7 +7,7 @@ public class QuadradoTest {
     
     // Declaração das variáveis utilizadas nos testes
     private Quadrado quadrado;
-    private double lado = 5;
+    private double lado = 5.0;
 
     // Esta função é executada antes de cada teste.
     @BeforeEach
