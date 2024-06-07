@@ -34,7 +34,7 @@ public class CirculoTest {
 
     @Test
     public void testToString() {
-        String stringEsperada = "Circulo{raio='5.0', pi='3.14'}";
+        String stringEsperada = "Circulo{raio='5.0'}";
         Assertions.assertEquals(stringEsperada, circulo.toString());
     }
 

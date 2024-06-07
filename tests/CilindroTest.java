@@ -47,7 +47,7 @@ public class CilindroTest {
 
     @Test
     public void testToString() {
-        String stringEsperada = "Cilindro{raio='5.0', altura='10.0', pi='3.14'}";
+        String stringEsperada = "Cilindro{raio='5.0', altura='10.0'}";
         Assertions.assertEquals(stringEsperada, cilindro.toString());
     }
 

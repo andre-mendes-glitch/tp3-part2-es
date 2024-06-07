@@ -41,7 +41,6 @@ public class Cilindro extends FigurasNaoPlanas implements Cloneable{
         return "Cilindro{" +
                 "raio='" + getRaio() + "'" +
                 ", altura='" + getAltura() + "'" +
-                ", pi='" + getPi() + "'" +
                 '}';
     }
 
