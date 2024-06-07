@@ -1,8 +1,10 @@
 Próximas Tarefas:
-☐ 1 - Adicionar nas classes das figuras planas, uma função para o perimetro
-☐ 2 - Criar classes e classes de testes para Retângulo e Trapézio.
-☐ 3 - Criar classes e classes de testes para Esfera e Paralelepípedo.
-☐ 4 - Adicionar as funções de cálculo na função de clone do ficheiro de teste de todas as classes de figuras.
+✔ 1 - Adicionar nas classes das figuras planas, uma função para o perimetro. @done(24-06-07 16:34)
+☐ 2 - Adicionar nas classes de testes das figuras planas, a função do perimetro.
+☐ 3 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes já criados
+☐ 4 - Criar classes e classes de testes para Retângulo e Trapézio.
+☐ 5 - Criar classes e classes de testes para Esfera e Paralelepípedo.
+☐ 6 - Adicionar as funções de cálculo na função de clone do ficheiro de teste novos.
 ---------------------------------------
 Estrutura do Relatório:
 1. Introdução

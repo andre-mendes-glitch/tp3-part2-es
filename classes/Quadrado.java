@@ -33,6 +33,11 @@ public class Quadrado extends FigurasPlanas implements Cloneable{
         return lado*lado;
     }
 
+    @Override
+    public double calcularPerimetro() {
+        return 4 * lado;
+    }
+
     public Object clone() throws CloneNotSupportedException{
         return super.clone();
 

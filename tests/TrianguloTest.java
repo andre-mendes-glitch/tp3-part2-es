@@ -7,24 +7,36 @@ public class TrianguloTest {
 
     // Declaração das variáveis utilizadas nos testes
     private Triangulo triangulo;
-    private double base = 5.0;
+    private double lado1 = 5.0;
+    private double lado2 = 7.0;
     private double altura = 10.0;
 
     // Esta função é executada antes de cada teste.
     @BeforeEach
     public void setup() {
-        triangulo = new Triangulo(base, altura);
+        triangulo = new Triangulo(lado1, lado2, altura);
     }
 
     @Test
-    public void testGetBase() {
-        Assertions.assertEquals(base, triangulo.getBase());
+    public void testGetLado1() {
+        Assertions.assertEquals(lado1, triangulo.getLado1());
     }
 
     @Test
-    public void testSetBase() {
-        triangulo.setBase(base);
-        Assertions.assertEquals(base, triangulo.getBase());
+    public void testSetLado1() {
+        triangulo.setLado1(lado1);
+        Assertions.assertEquals(lado1, triangulo.getLado1());
+    }
+
+    @Test
+    public void testGetLado2() {
+        Assertions.assertEquals(lado2, triangulo.getLado2());
+    }
+
+    @Test
+    public void testSetLado2() {
+        triangulo.setLado1(lado2);
+        Assertions.assertEquals(lado2, triangulo.getLado2());
     }
 
     @Test
@@ -40,13 +52,13 @@ public class TrianguloTest {
 
     @Test
     public void testToString() {
-        String stringEsperada = "Triangulo{base='5.0', altura='10.0'}";
+        String stringEsperada = "Triangulo{lado1='5.0', lado2='7.0', altura='10.0'}";
         Assertions.assertEquals(stringEsperada, triangulo.toString());
     }
 
     @Test
     public void testCalcularArea() {
-        double areaEsperada = (base * altura) / 2;
+        double areaEsperada = (lado1 * altura) / 2;
         Assertions.assertEquals(areaEsperada, triangulo.calcularArea(), 0.001);
     }
 
@@ -54,7 +66,8 @@ public class TrianguloTest {
     public void testClone() throws CloneNotSupportedException {
         Triangulo trianguloClone = (Triangulo) triangulo.clone();
 
-        Assertions.assertEquals(triangulo.getBase(), trianguloClone.getBase());
+        Assertions.assertEquals(triangulo.getLado1(), trianguloClone.getLado1());
+        Assertions.assertEquals(triangulo.getLado2(), trianguloClone.getLado2());
         Assertions.assertEquals(triangulo.getAltura(), trianguloClone.getAltura());
         
         Assertions.assertNotSame(triangulo, trianguloClone);
