@@ -1,10 +1,7 @@
-✔ 1 - Removi todas as varáveis "pi" das funções ToString de todas as classes e classes de testes já criadas até agora. @done(24-06-07 18:20)
-☐ 2 - Criar um ficheiro de classes e classes de testes para Trapezio. 
-☐ 3 - Criar um ficheiro de classes e classes de testes para Esfera
-☐ 4 - Criar um ficheiro de classes e classes de testes para Paralelepipedo.
-☐ 5 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes criados.
-☐ 6 - Fazer uma melhor versão da função set de todas os ficheiros de teste.
-☐ 7 - Foram adicionados comentários ao código todo para melhor compreensão.
+✔ 1 - Criar um ficheiro de classes e classes de testes para Trapezio. @done(24-06-07 19:18)
+☐ 2 - Criar um ficheiro de classes e classes de testes para Esfera
+☐ 3 - Criar um ficheiro de classes e classes de testes para Paralelepipedo.
+☐ 4 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes criados.
 ---------------------------------------
 Estrutura do Relatório:
 1. Introdução
