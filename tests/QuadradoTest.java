@@ -33,15 +33,15 @@ public class QuadradoTest {
     }
 
     @Test
-    public void testCalcularPerimetro() {
-        double perimetroEsperado = 4 * lado;
-        Assertions.assertEquals(perimetroEsperado, quadrado.calcularPerimetro());
-    }
-
-    @Test
     public void testCalcularArea() {
         double areaEsperada = lado * lado;
         Assertions.assertEquals(areaEsperada, quadrado.calcularArea());
+    }
+
+    @Test
+    public void testCalcularPerimetro() {
+        double perimetroEsperado = 4 * lado;
+        Assertions.assertEquals(perimetroEsperado, quadrado.calcularPerimetro());
     }
 
     @Test

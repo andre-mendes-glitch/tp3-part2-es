@@ -51,7 +51,7 @@ public class RetanguloTest {
     }
 
     @Test
-    public void testCalcularComprimento() {
+    public void testCalcularPerimetro() {
         double perimetroEsperado = 2 * (comprimento + largura);
         Assertions.assertEquals(perimetroEsperado, retangulo.calcularPerimetro());
     }
