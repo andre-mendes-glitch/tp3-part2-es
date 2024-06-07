@@ -1,9 +1,11 @@
-☐ 2 - Adicionar nas classes de testes das figuras planas, a função do perimetro.
-☐ 3 - Criar classes e classes de testes para Retângulo e Trapézio.
-☐ 4 - Criar classes e classes de testes para Esfera e Paralelepípedo.
-☐ 5 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes criados.
-☐ 6 - Fazer uma melhor versão da função set de todas os ficheiros de teste.
-☐ 7 - Comentar o código
+✔ 1 - Criar um ficheiro de classes e classes de testes para Retângulo. @done(24-06-07 18:00)
+☐ 2 - Remover o pi das funções ToString de todas as classes e classes de testes.
+☐ 3 - Criar um ficheiro de classes e classes de testes para Trapezio. 
+☐ 4 - Criar um ficheiro de classes e classes de testes para Esfera
+☐ 5 - Criar um ficheiro de classes e classes de testes para Paralelepipedo.
+☐ 6 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes criados.
+☐ 7 - Fazer uma melhor versão da função set de todas os ficheiros de teste.
+☐ 8 - Foram adicionados comentários ao código todo para melhor compreensão.
 ---------------------------------------
 Estrutura do Relatório:
 1. Introdução
@@ -11,21 +13,21 @@ Estrutura do Relatório:
 3. Descrição dos testes
 
 ----------------------------------------
-Descrição dos testes no relatório:
-3. Classe de Testes da Classe Figura
-3.1. Classe "FigurasTest"
+3. Descrição dos testes no relatório:
+3.1. Classe de Testes da Classe Figura
+3.1.1. Classe "FigurasTest"
 
-4. Figuras Planas
-4.1.  Classe "CirculoTest"
-4.2.  Classe "QuadradoTest"
-4.3.  Classe "TrianguloTest"
-4.4.  Classe "RetânguloTest"
-4.5.  Classe "TrapézioTest"
+3.2. Figuras Planas
+3.2.1.  Classe "CirculoTest"
+3.2.2.  Classe "QuadradoTest"
+3.2.3.  Classe "TrianguloTest"
+3.2.4.  Classe "RetânguloTest"
+3.2.5.  Classe "TrapézioTest"
 
-5. Figuras Não Planas
-5.1. Classe "CilindroTest"
-5.2. Classe "CuboTest"
-5.3. Classe "PirâmideTest"
-5.4.  Classe "EsferaTest"
-5.5.  Classe "ParalelepípedoTest"
+3.3. Figuras Não Planas
+3.3.1. Classe "CilindroTest"
+3.3.2. Classe "CuboTest"
+3.3.3. Classe "PirâmideTest"
+3.3.4.  Classe "EsferaTest"
+3.3.5.  Classe "ParalelepípedoTest"
 ---------------------------------------
