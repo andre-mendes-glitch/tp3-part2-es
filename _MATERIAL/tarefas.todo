@@ -1,10 +1,8 @@
 Próximas Tarefas:
-1 - Pôr os cálculos da area, volume ou só area.
-2 - Adicionar nas figuras uma função para o perimetro e adicionar clone
-3 - Arranjar uma melhor forma de fazer a função set
-4 - Pôr mensagens personalizadas em cada teste
-5 - Colocar o código todo de forma limpa e comentada
-
+☐ 1 - Adicionar nas classes das figuras planas, uma função para o perimetro
+☐ 2 - Criar classes e classes de testes para Retângulo e Trapézio.
+☐ 3 - Criar classes e classes de testes para Esfera e Paralelepípedo.
+☐ 4 - Adicionar as funções de cálculo na função de clone do ficheiro de teste de todas as classes de figuras.
 ---------------------------------------
 Estrutura do Relatório:
 1. Introdução
@@ -21,9 +19,13 @@ Descrição dos testes no relatório:
 4.1.  Classe "Circulo"
 4.2.  Classe "Quadrado"
 4.3.  Classe "Triangulo"
+4.4.  Classe "Retângulo"
+4.5.  Classe "Trapézio"
 
 5. Figuras Não Planas
 5.1. Classe "Cilindro"
 5.2. Classe "Cubo"
 5.3. Classe "Pirâmide"
+5.4.  Classe "Esfera"
+5.5.  Classe "Paralelepípedo"
 ---------------------------------------
