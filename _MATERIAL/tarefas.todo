@@ -1,33 +1,31 @@
-Próximas Tarefas:
-✔ 1 - Adicionar nas classes das figuras planas, uma função para o perimetro. @done(24-06-07 16:34)
 ☐ 2 - Adicionar nas classes de testes das figuras planas, a função do perimetro.
-☐ 3 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes já criados
-☐ 4 - Criar classes e classes de testes para Retângulo e Trapézio.
-☐ 5 - Criar classes e classes de testes para Esfera e Paralelepípedo.
-☐ 6 - Adicionar as funções de cálculo na função de clone do ficheiro de teste novos.
+☐ 3 - Criar classes e classes de testes para Retângulo e Trapézio.
+☐ 4 - Criar classes e classes de testes para Esfera e Paralelepípedo.
+☐ 5 - Adicionar as funções de cálculo na função de clone dos ficheiros de testes criados.
+☐ 6 - Fazer uma melhor versão da função set de todas os ficheiros de teste.
+☐ 7 - Comentar o código
 ---------------------------------------
 Estrutura do Relatório:
 1. Introdução
 2. Contextualização do projeto em si
 3. Descrição dos testes
-4. Conclusão
 
 ----------------------------------------
 Descrição dos testes no relatório:
 3. Classe de Testes da Classe Figura
-3.1. Classe "Figuras"
+3.1. Classe "FigurasTest"
 
 4. Figuras Planas
-4.1.  Classe "Circulo"
-4.2.  Classe "Quadrado"
-4.3.  Classe "Triangulo"
-4.4.  Classe "Retângulo"
-4.5.  Classe "Trapézio"
+4.1.  Classe "CirculoTest"
+4.2.  Classe "QuadradoTest"
+4.3.  Classe "TrianguloTest"
+4.4.  Classe "RetânguloTest"
+4.5.  Classe "TrapézioTest"
 
 5. Figuras Não Planas
-5.1. Classe "Cilindro"
-5.2. Classe "Cubo"
-5.3. Classe "Pirâmide"
-5.4.  Classe "Esfera"
-5.5.  Classe "Paralelepípedo"
+5.1. Classe "CilindroTest"
+5.2. Classe "CuboTest"
+5.3. Classe "PirâmideTest"
+5.4.  Classe "EsferaTest"
+5.5.  Classe "ParalelepípedoTest"
 ---------------------------------------

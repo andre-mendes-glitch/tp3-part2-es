@@ -63,6 +63,12 @@ public class TrianguloTest {
     }
 
     @Test
+    public void testCalcularPerimetro() {
+        double perimetroEsperado = lado1 + lado2 + altura;
+        Assertions.assertEquals(perimetroEsperado, triangulo.calcularPerimetro());
+    }
+
+    @Test
     public void testClone() throws CloneNotSupportedException {
         Triangulo trianguloClone = (Triangulo) triangulo.clone();
 

@@ -45,6 +45,12 @@ public class CirculoTest {
     }
 
     @Test
+    public void testCalcularPerimetro() {
+        double perimetroEsperado = 2 * pi * raio;
+        Assertions.assertEquals(perimetroEsperado, circulo.calcularPerimetro());
+    }
+
+    @Test
     public void testClone() throws CloneNotSupportedException {
         Circulo circuloClone = (Circulo) circulo.clone();
 
